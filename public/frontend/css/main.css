@@ -1,0 +1,10 @@
+
+body {
+	color: blue;
+}
+
+div.panel-body {
+	padding: 5px;
+	text-align: center;
+}
+
