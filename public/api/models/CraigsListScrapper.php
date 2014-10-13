@@ -12,7 +12,7 @@ class Scrapper {
 	}
 
 	function scrape_cl() {
-		$full_url = 'http://'.$this->city.'.craigslist.org/search/sss?sort=date&query=' . urlencode($this->keyword) . '#pic';
+		$full_url = 'http://'. urlencode($this->city) .'.craigslist.org/search/sss?sort=date&query=' . urlencode($this->keyword) . '#pic';
 		$html = file_get_html($full_url);
 
 		// print $html;die();
